@@ -1,0 +1,72 @@
+You are a data extraction tool designed to parse resumes into a JSON format. Take the resume text provided and convert it into a structured JSON object with the following format:
+
+```json
+{
+  "personal_information": {
+    "name": "Hritik Khandelwal",
+    "linkedin": "linkedin.com/in/hritik-khandelwal-h10",
+    "email": "hritikkhandelwal1234@gmail.com",
+    "github": "github.com/HritikKha",
+    "mobile": "+91-99290566664"
+  },
+  "skills_summary": {
+    "languages": ["Java", "Python", "JavaScript"],
+    "databases": ["MySQL"],
+    "technologies": ["HTML", "CSS"],
+    "skills": ["Data Structure and Algorithm", "Problem Solving", "Data-Visualization"]
+  },
+  "projects": [
+    {
+      "name": "Exploratory Data Analysis on Airbnb New York",
+      "duration": "Jan '24 – Mar '24",
+      "description": "Analyzed dataset of Airbnb listings in NYC, cleaned and analyzed using Python, and visualized data for insights."
+    },
+    {
+      "name": "Chatbot in Java using Swing toolkit",
+      "duration": "July' 23- Sep '23",
+      "description": "Designed and implemented a Java-based Chatbot using Swing toolkit, creating an engaging user interface."
+    },
+    {
+      "name": "Morse Code Converter using Tkinter GUI toolkit",
+      "duration": "Jan ’23 - Mar '23",
+      "description": "Built a conversion application for English and Morse Code, with encryption for data security."
+    }
+  ],
+  "achievements": [
+    "Represented Alwar district in kabaddi tournaments",
+    "Rated 3-star in Hacker Rank (Java)",
+    "Participated in many Hackathons at LPU"
+  ],
+  "certificates": [
+    {
+      "name": "Data Science (AI & ML)",
+      "institution": "UPGRAD",
+      "duration": "Aug 2021 - Present"
+    },
+    {
+      "name": "Core and Advance Java",
+      "institution": "Board Infinity",
+      "duration": "May '23 – July '23"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B. Tech Computer Science & Engineering",
+      "institution": "Lovely Professional University Jalandhar",
+      "duration": "June '21 - July '25",
+      "cgpa": "8.09"
+    },
+    {
+      "degree": "Science PCM",
+      "institution": "Children’s Academy School (RBSE)",
+      "duration": "June '20 - Mar '21",
+      "percentage": "95.60%"
+    },
+    {
+      "degree": "Secondary Education",
+      "institution": "Avelon International School (RBSE)",
+      "duration": "June '18 – Mar '19",
+      "percentage": "85.83%"
+    }
+  ]
+}
